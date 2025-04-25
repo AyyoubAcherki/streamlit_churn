@@ -40,7 +40,7 @@ data = pd.DataFrame([{
 }])
 
 # Chargement du modèle
-model = joblib.load("ch.joblib")
+model = joblib.load("app_streamlit\\ch.joblib")
 
 if st.button("Prédire la fidélité"):
     st.write("Traitement en cours...")
