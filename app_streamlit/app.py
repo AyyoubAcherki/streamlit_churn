@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-st.title('2A BANK')
+st.title('Client Keeper')
 # st.image("2A bank.png", caption="2A BANK")
 col1, col2, col3 = st.columns(3)
 
